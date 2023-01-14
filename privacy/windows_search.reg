@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowSearchToUseLocation"=dword:00000000
+"AllowCortana"=dword:00000000
+"AllowCortanaAboveLock"=dword:00000000
+"ConnectedSearchUseWeb"=dword:00000000
+"ConnectedSearchUseWebOverMeteredConnections"=dword:00000000
+"DisableWebSearch"=dword:00000001
