@@ -11,3 +11,11 @@ Today, we use our computers to communicate with people, do our jobs, have fun, a
 [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement)
 
 As seen in the agreement, Microsoft admits to collecting personal data. It also tells us that if you refuse to provide this data, we will not be able to use Windows applications and services. One of the purposes for developing the Guardian tool is to protect privacy. Other aim of the project are to take basic security measures on devices with Windows operating system.
+
+## Installation
+
+The tool is written in Python programming language. There is no Python 2 support.
+
+* `https://github.com/k1z1lelma/guardian.git`
+* `cd guardian`
+* `python main.py` or `python3 main.py`
