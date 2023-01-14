@@ -51,3 +51,7 @@ In other words, when the device wants to go to a remote computer, the first plac
 Therefore, answer "Y" to the question asked when exiting the program.
 
 ![host](https://github.com/k1z1lelma/guardian/blob/main/pictures/exit_host.png)
+
+## Get involved
+
+There are many new features that we want to add. We welcome pull requests and issues on GitHub. Also check the CONTRIBUTING and CONTRIBUTORS documentation for further information.
