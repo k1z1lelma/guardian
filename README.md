@@ -38,3 +38,16 @@ The program consists of three main menus. Full protection menu with simple secur
 * If you do not want to adjust the settings in the privacy and security menu one by one, the full protection menu is for you :)
 
 ![full protection](https://github.com/k1z1lelma/guardian/blob/main/pictures/full_protection.png)
+
+After making these settings, you will prevent many personal data collected by Windows from being sent. However, we need to enter some DNS records in the host file so that these settings are not withdrawn by Windows with any update. The DNS records entered here are the domain addresses to which the data is sent. The action taken here is very simple. When computers want to communicate with a remote computer, they need to decode the address of the remote device. Let's examine how Windows machines handle name resolutions. These steps are as follows:
+* First of all, the host file in the file system is checked. Thanks to this file, it checks whether the device to be accessed is itself. In addition, the system information that it wants to access in the configuration files is queried.
+* If the information about the device to be accessed is available in the cache, this information is retrieved from the DNS cache on the machine.
+* If the information of the target machine is not in the cache, a query is sent to the DNS server defined in the network.
+<br/>
+In other words, when the device wants to go to a remote computer, the first place it will visit is the host file. In the DNS records we entered here, we give the 0.0.0.0 IP address, that is, localhost. This means that when our device wants to communicate with Windows Domain addresses, it will be directed to localhost and will not be able to send the collected data to Microsoft servers.
+
+<br/>
+
+Therefore, answer "Y" to the question asked when exiting the program.
+
+![host](https://github.com/k1z1lelma/guardian/blob/main/pictures/exit_host.png)
