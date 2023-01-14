@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\MediaPlayer\Preferences]
+"MetadataRetrieval"=dword:00000000
+"SendUserGUID"=hex:00
+"UsageTracking"=dword:00000000
+"SilentAcquisition"=dword:00000000

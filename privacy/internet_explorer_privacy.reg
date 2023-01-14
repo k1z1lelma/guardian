@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes\{8C3078A0-9AAB-4371-85D1-656CA8E46EE8}]
+"ShowSearchSuggestions"=dword:00000000
