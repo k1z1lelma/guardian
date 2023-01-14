@@ -43,7 +43,7 @@ def main_menu():
     print("\x1b[0;32m [3]\x1b[0m Full Protection")
     print("\x1b[0;32m [4]\x1b[0m Exit\n")
 
-    main_choose = input("Your choice (1 - 5) :")
+    main_choose = input("Your choice (1 - 4) :")
 
     if(main_choose == "4"):
         system('cls')
