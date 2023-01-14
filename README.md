@@ -19,3 +19,22 @@ The tool is written in Python programming language. There is no Python 2 support
 * `https://github.com/k1z1lelma/guardian.git`
 * `cd guardian`
 * `python main.py` or `python3 main.py`
+
+## Usage
+
+The program consists of three main menus. Full protection menu with simple security, privacy and adjustment of all settings in these menus.
+
+![main menu](https://github.com/k1z1lelma/guardian/blob/main/pictures/main_menu.png)
+
+* When we enter 1 from the keyboard, we enter the simple security menu and the hardening settings we can make in this menu are as in the image.
+
+![basic security](https://github.com/k1z1lelma/guardian/blob/main/pictures/security_menu.png)
+
+
+* I can say that the most important menu is menu number 2. Here, the collection of personal data collected by Microsoft is prevented.
+
+![privacy security](https://github.com/k1z1lelma/guardian/blob/main/pictures/privacy_menu.png)
+
+* If you do not want to adjust the settings in the privacy and security menu one by one, the full protection menu is for you :)
+
+![full protection](https://github.com/k1z1lelma/guardian/blob/main/pictures/full_protection.png)
