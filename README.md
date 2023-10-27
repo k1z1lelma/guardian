@@ -16,7 +16,7 @@ As seen in the agreement, Microsoft admits to collecting personal data. It also 
 
 The tool is written in Python programming language. There is no Python 2 support.
 
-* `https://github.com/k1z1lelma/guardian.git`
+* `git clone https://github.com/k1z1lelma/guardian.git`
 * `cd guardian`
 * `python main.py` or `python3 main.py`
 
